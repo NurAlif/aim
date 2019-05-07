@@ -11,13 +11,7 @@
 
 
 
-
-var raycaster = new THREE.Raycaster();
-
-masterScreenPointerLock = document.body;
-
-masterScreenPointerLock.requestPointerLock = masterScreenPointerLock.requestPointerLock ||
-                        					 masterScreenPointerLock.mozRequestPointerLock;
+xestPointerLock;
 
 function updatePosition(e) {
   console.log(e.movementX);
